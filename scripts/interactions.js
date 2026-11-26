@@ -21,3 +21,7 @@ document.querySelectorAll('.card').forEach((card) => {
     button.addEventListener('click', syncPressedState);
   });
 });
+
+document.querySelector('.save-dialog__button').addEventListener('click', () => {
+  saveDialog.close();
+});
